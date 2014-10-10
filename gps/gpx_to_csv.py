@@ -7,8 +7,6 @@ Created on Tue Mar 25 08:45:49 2014
 from xml.dom import minidom
 import pandas
 import datetime
-import matplotlib.pyplot as plot
-from mpl_toolkits.basemap import Basemap
 class gpx_to_csv:
   def __init__(self, filename):
     self.tracks = {}
